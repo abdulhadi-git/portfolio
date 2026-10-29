@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ========== SEO (change these) ========== -->
+  <title>Abdul Hadi | Full-Stack Laravel &amp; JavaScript Developer</title>
+  <meta name="description" content="Full-stack developer building fast, secure and search-friendly web apps with Laravel, PHP, JavaScript and MySQL. See selected projects, case studies and get in touch.">
+  <meta name="author" content="Abdul Hadi">
+  <meta name="theme-color" content="#0d1017">
+  <link rel="canonical" href="https://www.yourdomain.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Abdul Hadi | Full-Stack Laravel &amp; JavaScript Developer">
+  <meta property="og:description" content="Fast, secure and search-friendly web apps built with Laravel and JavaScript.">
+  <meta property="og:url" content="https://www.yourdomain.com/">
+  <meta property="og:image" content="https://www.yourdomain.com/images/og-cover.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Abdul Hadi",
+    "jobTitle": "Full-Stack Laravel Developer",
+    "url": "https://www.yourdomain.com/",
+    "sameAs": [
+      "https://github.com/yourusername",
+      "https://www.linkedin.com/in/yourusername"
+    ],
+    "knowsAbout": ["Laravel", "PHP", "JavaScript", "MySQL", "SQL Server", "Technical SEO"]
+  }
+  </script>
+
+  <!-- ========== Fonts ========== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- ========== Icons ========== -->
+  <!-- Tech brand icons (Laravel, PHP, MySQL...) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <!-- UI icons (arrows, socials...) -->
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css">
+
+  <!-- ========== Your styles (next file) ========== -->
+  <link rel="stylesheet" href="style.css">
+
+  <noscript><style>.loader{display:none!important}.is-loading{overflow:auto!important}</style></noscript>
+</head>
+
+<body class="is-loading">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Page loader -->
+  <div class="loader" data-loader aria-hidden="true">
+    <div class="loader__inner">
+      <span class="loader__count" data-loader-count>0</span>
+      <span class="loader__text">Loading portfolio</span>
+    </div>
+    <span class="loader__bar" data-loader-bar></span>
+  </div>
+
+  <!-- Scroll progress + custom cursor (desktop only, handled in CSS) -->
+  <div class="progress" aria-hidden="true"><span data-progress></span></div>
+  <div class="cursor" data-cursor aria-hidden="true"><span class="cursor__label" data-cursor-label></span></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- ====================================================== -->
+  <!-- NAVBAR                                                 -->
+  <!-- ====================================================== -->
+  <header class="nav" data-nav>
+    <div class="nav__bar">
+      <a class="logo nav__brand" href="#home" aria-label="Abdul Hadi, back to top">
+        <span class="logo__text">Abdul Hadi</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary" data-nav-links>
+        <span class="nav__indicator" aria-hidden="true" data-nav-indicator></span>
+        <ul>
+          <li><a class="nav__link" href="#work">Work</a></li>
+          <li><a class="nav__link" href="#skills">Skills</a></li>
+          <li><a class="nav__link" href="#cases">Case studies</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--primary btn--sm" href="#contact" data-magnetic>
+          <span class="btn__label">Hire me</span>
+        </a>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu" data-menu-toggle>
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobile-menu" data-menu aria-hidden="true">
+    <nav class="mobile-menu__nav" aria-label="Mobile">
+      <a class="mobile-menu__link" href="#work">Work</a>
+      <a class="mobile-menu__link" href="#skills">Skills</a>
+      <a class="mobile-menu__link" href="#cases">Case studies</a>
+      <a class="mobile-menu__link" href="#about">About</a>
+      <a class="mobile-menu__link" href="#contact">Contact</a>
+    </nav>
+    <div class="mobile-menu__foot">
+      <a href="mailto:namehadi59@gmail.com">namehadi59@gmail.com</a>
+      <ul class="socials">
+        <li><a href="https://github.com/yourusername" aria-label="GitHub"><i class="ph ph-github-logo"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/yourusername" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a></li>
+        <li><a href="https://wa.me/923111311054" aria-label="WhatsApp"><i class="ph ph-whatsapp-logo"></i></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ====================================================== -->
+    <!-- HERO                                                   -->
+    <!-- ====================================================== -->
+    <section class="hero section--light" id="home">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="hero__grid"></span>
+        <span class="hero__glow hero__glow--1" data-parallax="30"></span>
+        <span class="hero__glow hero__glow--2" data-parallax="-20"></span>
+      </div>
+
+      <div class="container hero__inner">
+        <h1 class="hero__title" aria-label="I build web apps that perform, scale, convert and last.">
+          <span class="line"><span class="line__inner">I build web apps</span></span>
+          <span class="line">
+            <span class="line__inner">that
+              <span class="typed-wrap"><span class="typed" data-typed data-words='["perform.","scale.","convert.","last."]'>perform.</span><span class="typed__caret" aria-hidden="true"></span></span>
+            </span>
+          </span>
+        </h1>
+
+        <p class="hero__lead" data-hero-item>
+          I'm a full-stack developer working with Laravel and JavaScript. I take a project from database design to a live product, and keep it fast, secure and easy to find on Google.
+        </p>
+
+        <div class="hero__actions" data-hero-item>
+          <a class="btn btn--primary btn--lg" href="#work" data-magnetic>
+            <span class="btn__label">See my work</span>
+            <span class="btn__icon"><i class="ph-bold ph-arrow-down-right"></i></span>
+          </a>
+          <a class="btn btn--ghost btn--lg" href="./cv/ABDUL_HADI_CV.pdf" download data-magnetic target="_blank">
+            <span class="btn__label">Download CV</span>
+            <span class="btn__icon"><i class="ph-bold ph-download-simple"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Floating logo tiles (hidden on small screens in CSS). Logos are local files in /icons -->
+      <div class="hero__floats" aria-hidden="true">
+        <div class="hero-tile hero-tile--laravel" data-parallax="40">
+          <img src="icons/laravel.svg" alt="" width="64" height="64" decoding="async">
+        </div>
+        <div class="hero-tile hero-tile--js" data-parallax="-30">
+          <img src="icons/javascript.svg" alt="" width="64" height="64" decoding="async">
+        </div>
+        <div class="hero-tile hero-tile--php" data-parallax="25">
+          <img src="icons/php.svg" alt="" width="64" height="64" decoding="async">
+        </div>
+        <div class="hero-tile hero-tile--mysql" data-parallax="-45">
+          <img src="icons/mysql.svg" alt="" width="64" height="64" decoding="async">
+        </div>
+        <div class="hero-tile hero-tile--git" data-parallax="20">
+          <img src="icons/git.svg" alt="" width="64" height="64" decoding="async">
+        </div>
+      </div>
+
+      <a class="hero__scroll" href="#work" aria-label="Scroll to projects">
+        <span class="hero__scroll-line"></span>
+        <span>Scroll</span>
+      </a>
+    </section>
+
+    <!-- Keyword strip -->
+    <div class="marquee section--dark" aria-label="What I work with">
+      <div class="marquee__track" data-marquee>
+        <div class="marquee__group">
+          <span class="marquee__item">Laravel</span><i class="marquee__sep" aria-hidden="true"></i>
+          <span class="marquee__item">REST APIs</span><i class="marquee__sep" aria-hidden="true"></i>
+          <span class="marquee__item">Livewire</span><i class="marquee__sep" aria-hidden="true"></i>
+          <span class="marquee__item">MySQL</span><i class="marquee__sep" aria-hidden="true"></i>
+          <span class="marquee__item">SQL Server</span><i class="marquee__sep" aria-hidden="true"></i>
+          <span class="marquee__item">Technical SEO</span><i class="marquee__sep" aria-hidden="true"></i>
+          <span class="marquee__item">Performance</span><i class="marquee__sep" aria-hidden="true"></i>
+          <span class="marquee__item">Clean architecture</span><i class="marquee__sep" aria-hidden="true"></i>
+        </div>
+        <div class="marquee__group" aria-hidden="true">
+          <span class="marquee__item">Laravel</span><i class="marquee__sep"></i>
+          <span class="marquee__item">REST APIs</span><i class="marquee__sep"></i>
+          <span class="marquee__item">Livewire</span><i class="marquee__sep"></i>
+          <span class="marquee__item">MySQL</span><i class="marquee__sep"></i>
+          <span class="marquee__item">SQL Server</span><i class="marquee__sep"></i>
+          <span class="marquee__item">Technical SEO</span><i class="marquee__sep"></i>
+          <span class="marquee__item">Performance</span><i class="marquee__sep"></i>
+          <span class="marquee__item">Clean architecture</span><i class="marquee__sep"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================================================== -->
+    <!-- FEATURED PROJECTS                                      -->
+    <!-- ====================================================== -->
+    <section class="work section section--light" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <header class="section-head">
+          <div class="section-head__text">
+            <h2 class="section-head__title" id="work-title">Selected projects</h2>
+            <p class="section-head__sub">A selection of personal projects where I turn ideas into functional, real-world applications.</p>
+          </div>
+          <a class="link-arrow" href="https://github.com/yourusername" target="_blank" rel="noopener">
+            <span>All projects on GitHub</span>
+            <i class="ph-bold ph-arrow-up-right"></i>
+          </a>
+        </header>
+
+        <div class="projects" data-stagger>
+
+          <!-- Project 1 (wide, text over image) -->
+          <article class="project project--feature" data-spotlight>
+            <div class="project__media">
+              <span class="project__ph" aria-hidden="true">Project image, 1200 x 800</span>
+              <img src="images/project-1.png" alt="E-commerce store storefront" width="1200" height="800" loading="lazy" onerror="this.remove()">
+              <span class="project__go" aria-hidden="true"><i class="ph-bold ph-arrow-up-right"></i></span>
+            </div>
+            <div class="project__body">
+              <p class="project__cat">E-commerce</p>
+              <h3 class="project__title"><a href="#case-store" data-cursor-text="Case study">E-commerce Store</a></h3>
+              <p class="project__desc">An e-commerce platform featuring product browsing, cart management, checkout, and order confirmation, with an admin panel for managing products, orders, and store operations.</p>
+              <ul class="tags">
+                <li>Laravel</li><li>MySQL</li><li>JavaScript</li><li>PHP</li><li>HTML</li><li>CSS</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Project 2 (narrow, text under image) -->
+          <article class="project project--compact" data-spotlight>
+            <div class="project__media">
+              <span class="project__ph" aria-hidden="true">Project image, 1200 x 800</span>
+              <img src="images/project-2.png" alt="Chatify chat interface" width="1200" height="800" loading="lazy" onerror="this.remove()">
+              <span class="project__go" aria-hidden="true"><i class="ph-bold ph-arrow-up-right"></i></span>
+            </div>
+            <div class="project__body">
+              <p class="project__cat">Realtime</p>
+              <h3 class="project__title"><a href="#case-chatify" data-cursor-text="Case study">Chatify</a></h3>
+              <p class="project__desc">A real-time chat application featuring private and group messaging, file sharing, online status, read receipts, and email verification, powered by WebSockets for instant updates.</p>
+              <ul class="tags">
+                <li>Laravel</li><li>JavaScript</li><li>MySQL</li><li>Laravel Reverb</li><li>HTML</li><li>CSS</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Project 3 (narrow, text under image) -->
+          <article class="project project--compact" data-spotlight>
+            <div class="project__media">
+              <span class="project__ph" aria-hidden="true">Project image, 1200 x 800</span>
+              <img src="images/project-3.png" alt="BakersClub bakery website" width="1200" height="800" loading="lazy" onerror="this.remove()">
+              <span class="project__go" aria-hidden="true"><i class="ph-bold ph-arrow-up-right"></i></span>
+            </div>
+            <div class="project__body">
+              <p class="project__cat">Responsive</p>
+              <h3 class="project__title"><a href="https://example.com" target="_blank" rel="noopener" data-cursor-text="Visit">BakersClub</a></h3>
+              <p class="project__desc">A modern bakery website featuring delicious treats, product showcases, and a clean, responsive design.</p>
+              <ul class="tags">
+                <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>jQuery</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Project 4 (wide, text over image) -->
+          <article class="project project--feature" data-spotlight>
+            <div class="project__media">
+              <span class="project__ph" aria-hidden="true">Project image, 1200 x 800</span>
+              <img src="images/project-4.png" alt="Library Desk admin dashboard" width="1200" height="800" loading="lazy" onerror="this.remove()">
+              <span class="project__go" aria-hidden="true"><i class="ph-bold ph-arrow-up-right"></i></span>
+            </div>
+            <div class="project__body">
+              <p class="project__cat">Management system</p>
+              <h3 class="project__title"><a href="#case-library" data-cursor-text="Case study">Library Desk</a></h3>
+              <p class="project__desc">A library management system for managing books, tracking issued and returned copies, handling overdue fines, and monitoring borrowing records through an admin panel.</p>
+              <ul class="tags">
+                <li>Laravel</li><li>HTML</li><li>JavaScript</li><li>CSS</li><li>PHP</li><li>SQL Server</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- TECHNICAL SKILLS (floating)                            -->
+    <!-- ====================================================== -->
+    <section class="skills section section--dark" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <header class="section-head section-head--center">
+          <div class="section-head__text">
+            <h2 class="section-head__title" id="skills-title">The stack I work in</h2>
+            <p class="section-head__sub">These are the tools I use every week. Hover over one to pause it and see what I use it for.</p>
+          </div>
+        </header>
+
+        <div class="skills__stage" data-skills>
+          <div class="skills__core" aria-hidden="true">
+            <span class="skills__core-ring"></span>
+            <span class="skills__core-label">Full<br>stack</span>
+          </div>
+
+          <!-- --x / --y = position in the stage, --delay / --dur = float timing -->
+          <ul class="skills__list">
+            <li class="skill skill--lg" tabindex="0" style="--x:22%; --y:28%; --delay:-2s; --dur:7s">
+              <span class="skill__icon"><i class="devicon-laravel-plain colored"></i></span>
+              <span class="skill__name">Laravel</span>
+              <span class="skill__note" role="tooltip">APIs, auth, queues, Eloquent</span>
+            </li>
+            <li class="skill" tabindex="0" style="--x:42%; --y:12%; --delay:-5s; --dur:8s">
+              <span class="skill__icon"><i class="devicon-php-plain colored"></i></span>
+              <span class="skill__name">PHP</span>
+              <span class="skill__note" role="tooltip">PHP 8, clean OOP</span>
+            </li>
+            <li class="skill skill--lg" tabindex="0" style="--x:64%; --y:22%; --delay:-1s; --dur:9s">
+              <span class="skill__icon"><i class="devicon-javascript-plain colored"></i></span>
+              <span class="skill__name">JavaScript</span>
+              <span class="skill__note" role="tooltip">ES6+, async UI, fetch</span>
+            </li>
+            <li class="skill" tabindex="0" style="--x:84%; --y:16%; --delay:-6s; --dur:7.5s">
+              <span class="skill__icon"><i class="devicon-html5-plain colored"></i></span>
+              <span class="skill__name">HTML5</span>
+              <span class="skill__note" role="tooltip">Semantic, accessible markup</span>
+            </li>
+            <li class="skill" tabindex="0" style="--x:90%; --y:50%; --delay:-3s; --dur:8.5s">
+              <span class="skill__icon"><i class="devicon-css3-plain colored"></i></span>
+              <span class="skill__name">CSS3</span>
+              <span class="skill__note" role="tooltip">Grid, Flexbox, animation</span>
+            </li>
+            <li class="skill skill--sm" tabindex="0" style="--x:70%; --y:50%; --delay:-4s; --dur:6.5s">
+              <span class="skill__icon"><i class="devicon-bootstrap-plain colored"></i></span>
+              <span class="skill__name">Bootstrap</span>
+              <span class="skill__note" role="tooltip">Fast admin panels</span>
+            </li>
+            <li class="skill" tabindex="0" style="--x:78%; --y:78%; --delay:-7s; --dur:7s">
+              <span class="skill__icon"><i class="devicon-jquery-plain colored"></i></span>
+              <span class="skill__name">jQuery</span>
+              <span class="skill__note" role="tooltip">AJAX and legacy UIs</span>
+            </li>
+            <li class="skill skill--lg" tabindex="0" style="--x:56%; --y:84%; --delay:-2.5s; --dur:9.5s">
+              <span class="skill__icon"><i class="devicon-mysql-plain colored"></i></span>
+              <span class="skill__name">MySQL</span>
+              <span class="skill__note" role="tooltip">Schema design, indexing</span>
+            </li>
+            <li class="skill" tabindex="0" style="--x:32%; --y:80%; --delay:-5.5s; --dur:8s">
+              <span class="skill__icon"><i class="devicon-microsoftsqlserver-plain colored"></i></span>
+              <span class="skill__name">SQL Server</span>
+              <span class="skill__note" role="tooltip">Stored procedures, reports</span>
+            </li>
+            <li class="skill" tabindex="0" style="--x:9%; --y:60%; --delay:-4.5s; --dur:8.8s">
+              <span class="skill__icon skill__icon--seo"><i class="ph-bold ph-magnifying-glass"></i></span>
+              <span class="skill__name">SEO</span>
+              <span class="skill__note" role="tooltip">Technical SEO, Core Web Vitals</span>
+            </li>
+            <li class="skill skill--sm" tabindex="0" style="--x:6%; --y:30%; --delay:-6.5s; --dur:6.8s">
+              <span class="skill__icon"><i class="devicon-git-plain colored"></i></span>
+              <span class="skill__name">Git</span>
+              <span class="skill__note" role="tooltip">Branching, code review</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- CASE STUDIES (expandable)                              -->
+    <!-- ====================================================== -->
+    <section class="cases section section--light" id="cases" aria-labelledby="cases-title">
+      <div class="container">
+        <header class="section-head">
+          <div class="section-head__text">
+            <h2 class="section-head__title" id="cases-title">Case studies</h2>
+            <p class="section-head__sub">What I set out to build, how I approached it, and what came out of it.</p>
+          </div>
+        </header>
+
+        <div class="cases__list">
+
+          <!-- Case 1 -->
+          <article class="case" id="case-store" data-case>
+            <div class="case__main">
+              <div class="case__cover" data-cover>
+                <span class="case__ph" aria-hidden="true">Cover image, 1400 x 1000</span>
+                <img src="images/case-1.png" alt="E-commerce store case study cover" width="1400" height="1000" loading="lazy" onerror="this.remove()">
+                <span class="case__badge">E-commerce</span>
+              </div>
+              <div class="case__body">
+                <dl class="case__meta">
+                  <div><dt>Role</dt><dd>Full-Stack Developer</dd></div>
+                  <div><dt>Timeline</dt><dd>Personal Project</dd></div>
+                  <div><dt>Year</dt><dd>2026</dd></div>
+                </dl>
+                <h3 class="case__title">E-commerce Store: a streamlined online shopping experience</h3>
+                <p class="case__summary">I built a single-vendor e-commerce store with product browsing, cart management, checkout, and order confirmation. The admin panel makes it easier to manage products and orders, bringing essential online shopping operations into one place.</p>
+                <button class="case__toggle" type="button" data-case-toggle aria-expanded="false" aria-controls="case-store-details">
+                  <span class="case__toggle-label" data-label-closed="Read case study" data-label-open="Hide case study">Read case study</span>
+                  <span class="case__toggle-icon" aria-hidden="true"><i class="ph-bold ph-plus"></i></span>
+                </button>
+              </div>
+            </div>
+
+            <div class="case__panel" id="case-store-details" data-case-panel>
+              <div class="case__panel-inner">
+                <div class="case__cols">
+                  <section>
+                    <h4>The challenge</h4>
+                    <p>I wanted to build an online store that covers the whole buying journey, not just a list of products. Visitors should be able to browse, fill a cart and check out without friction, while the store owner needs one place to manage products and orders. The hard part was keeping cart, checkout and order data consistent from one step to the next.</p>
+                  </section>
+                  <section>
+                    <h4>What I built</h4>
+                    <p>A single-vendor store built with Laravel and MySQL. Visitors browse products, add them to a cart, check out and receive an order confirmation. Behind it sits an admin panel where the owner adds and edits products and follows every order. The interface is plain HTML, CSS and JavaScript, so pages stay light and easy to change.</p>
+                  </section>
+                  <section>
+                    <h4>The result</h4>
+                    <ul class="case__results">
+                      <li><strong>Complete shopping flow</strong> from browsing to order confirmation, working end to end</li>
+                      <li><strong>One admin panel</strong> for products, orders and day-to-day store operations</li>
+                      <li><strong>What I learned</strong> how carts, checkout and orders fit together in a Laravel application</li>
+                    </ul>
+                  </section>
+                </div>
+                <div class="case__foot">
+                  <ul class="tags tags--solid">
+                    <li>Laravel</li><li>MySQL</li><li>PHP</li><li>JavaScript</li><li>HTML</li><li>CSS</li>
+                  </ul>
+                  <a class="link-arrow" href="https://github.com/yourusername" target="_blank" rel="noopener">
+                    <span>View on GitHub</span>
+                    <i class="ph-bold ph-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Case 2 (cover on the right in CSS via .case--flip) -->
+          <article class="case case--flip" id="case-chatify" data-case>
+            <div class="case__main">
+              <div class="case__cover" data-cover>
+                <span class="case__ph" aria-hidden="true">Cover image, 1400 x 1000</span>
+                <img src="images/case-2.png" alt="Chatify case study cover" width="1400" height="1000" loading="lazy" onerror="this.remove()">
+                <span class="case__badge">Realtime</span>
+              </div>
+              <div class="case__body">
+                <dl class="case__meta">
+                  <div><dt>Role</dt><dd>Full-Stack Developer</dd></div>
+                  <div><dt>Timeline</dt><dd>Personal Project</dd></div>
+                  <div><dt>Year</dt><dd>2026</dd></div>
+                </dl>
+                <h3 class="case__title">Chatify: real-time messaging built for seamless conversations</h3>
+                <p class="case__summary">I built a real-time chat application featuring private and group messaging, file sharing, online status, and read receipts. Using WebSockets, I implemented instant message updates to make conversations more interactive and responsive.</p>
+                <button class="case__toggle" type="button" data-case-toggle aria-expanded="false" aria-controls="case-chatify-details">
+                  <span class="case__toggle-label" data-label-closed="Read case study" data-label-open="Hide case study">Read case study</span>
+                  <span class="case__toggle-icon" aria-hidden="true"><i class="ph-bold ph-plus"></i></span>
+                </button>
+              </div>
+            </div>
+
+            <div class="case__panel" id="case-chatify-details" data-case-panel>
+              <div class="case__panel-inner">
+                <div class="case__cols">
+                  <section>
+                    <h4>The challenge</h4>
+                    <p>A normal page can only show new data when you ask for it, so it cannot push a message to someone else's screen. I wanted to learn how chat apps feel instant, and then build one. On top of sending text, the app had to handle group conversations, file sharing, who is online and whether a message has been read.</p>
+                  </section>
+                  <section>
+                    <h4>What I built</h4>
+                    <p>Chatify is a real-time chat app on Laravel. Laravel Reverb runs the WebSocket server and Laravel Echo listens for events in the browser, so new messages, online status and read receipts appear without a refresh. Users can chat privately or in groups, share files, and confirm their email when they sign up. MySQL stores users, conversations and messages.</p>
+                  </section>
+                  <section>
+                    <h4>The result</h4>
+                    <ul class="case__results">
+                      <li><strong>No page refresh</strong> messages, online status and read receipts update live</li>
+                      <li><strong>Private and group chat</strong> with file sharing and email verification</li>
+                      <li><strong>What I learned</strong> how events, WebSockets and Echo work together in Laravel</li>
+                    </ul>
+                  </section>
+                </div>
+                <div class="case__foot">
+                  <ul class="tags tags--solid">
+                    <li>Laravel</li><li>Laravel Reverb</li><li>Laravel Echo</li><li>JavaScript</li><li>MySQL</li><li>HTML</li><li>CSS</li>
+                  </ul>
+                  <a class="link-arrow" href="https://github.com/yourusername" target="_blank" rel="noopener">
+                    <span>View on GitHub</span>
+                    <i class="ph-bold ph-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Case 3 -->
+          <article class="case" id="case-library" data-case>
+            <div class="case__main">
+              <div class="case__cover" data-cover>
+                <span class="case__ph" aria-hidden="true">Cover image, 1400 x 1000</span>
+                <img src="images/case-3.png" alt="Library Desk case study cover" width="1400" height="1000" loading="lazy" onerror="this.remove()">
+                <span class="case__badge">Management system</span>
+              </div>
+              <div class="case__body">
+                <dl class="case__meta">
+                  <div><dt>Role</dt><dd>Full-Stack Developer</dd></div>
+                  <div><dt>Timeline</dt><dd>Personal Project</dd></div>
+                  <div><dt>Year</dt><dd>2026</dd></div>
+                </dl>
+                <h3 class="case__title">Library Desk: a streamlined library management system</h3>
+                <p class="case__summary">I built a library management system with book and category management, member records, book issuing and returns, and overdue fine tracking. An admin panel helps manage borrowing records, monitor book availability, and keep library operations organized.</p>
+                <button class="case__toggle" type="button" data-case-toggle aria-expanded="false" aria-controls="case-library-details">
+                  <span class="case__toggle-label" data-label-closed="Read case study" data-label-open="Hide case study">Read case study</span>
+                  <span class="case__toggle-icon" aria-hidden="true"><i class="ph-bold ph-plus"></i></span>
+                </button>
+              </div>
+            </div>
+
+            <div class="case__panel" id="case-library-details" data-case-panel>
+              <div class="case__panel-inner">
+                <div class="case__cols">
+                  <section>
+                    <h4>The challenge</h4>
+                    <p>A library depends on records that all point at each other: books, categories, members and every borrowing. I wanted to build a system that keeps that data accurate, so staff can always see which books are available, who has borrowed what, and which returns are late. Keeping track of overdue fines was a key part of the problem.</p>
+                  </section>
+                  <section>
+                    <h4>What I built</h4>
+                    <p>Library Desk is a Laravel app running on SQL Server. Staff manage books and categories, register members, issue books and record returns. The admin panel shows borrowing records and book availability, and overdue returns carry a fine so nothing slips through. HTML, CSS and JavaScript handle the interface.</p>
+                  </section>
+                  <section>
+                    <h4>The result</h4>
+                    <ul class="case__results">
+                      <li><strong>Full borrowing cycle</strong> issue, return and overdue fines in one system</li>
+                      <li><strong>One admin panel</strong> for books, members and borrowing records</li>
+                      <li><strong>What I learned</strong> how to design a database where books, members and loans depend on each other</li>
+                    </ul>
+                  </section>
+                </div>
+                <div class="case__foot">
+                  <ul class="tags tags--solid">
+                    <li>Laravel</li><li>PHP</li><li>SQL Server</li><li>JavaScript</li><li>HTML</li><li>CSS</li>
+                  </ul>
+                  <a class="link-arrow" href="https://github.com/yourusername" target="_blank" rel="noopener">
+                    <span>View on GitHub</span>
+                    <i class="ph-bold ph-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- ABOUT                                                  -->
+    <!-- ====================================================== -->
+    <section class="about section section--tint" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+
+        <div class="about__visual">
+          <!-- "Messy requirements -> software" scene. Drawn on a fixed 416 x 500 stage that script.js scales to the panel width.
+               Without JS / with reduced motion this markup is simply the finished app (chips, scribble and core stay hidden). -->
+          <figure class="req" data-req data-phase="3" data-parallax="-20" role="img" aria-label="Animation: a pile of messy client requirements such as 'make it pop', 'fast login pls' and 'ASAP' is pulled together, compiled, and turns into one finished web app with a dashboard, a chart and the Laravel, JavaScript, PHP, MySQL and Git stack.">
+            <div class="req__panel" data-req-panel>
+              <div class="req__stage" data-req-stage aria-hidden="true">
+
+                <span class="req__glow" data-req-glow></span>
+
+                <div class="req__top">
+                  <span class="req__phase"><i class="req__dot"></i><span data-req-phase>04 &middot; Shipped</span></span>
+                  <span class="req__steps" data-req-steps><i class="is-on"></i><i class="is-on"></i><i class="is-on"></i><i class="is-on"></i></span>
+                </div>
+
+                <!-- tangled scribble behind the pile -->
+                <svg class="req__scribble" data-req-scribble viewBox="0 0 416 500" width="416" height="500" focusable="false">
+                  <path pathLength="1" d="M30 128C84 38 176 66 154 138S44 214 122 254 262 150 304 212 384 336 292 334 138 284 98 352 188 474 262 412 392 402 360 462 198 382 228 302 332 150 252 122 120 134 190 192"/>
+                </svg>
+
+                <!-- The messy pile. Edit the text freely.
+                     --x / --y = centre of the chip on the stage, data-r = tilt in degrees, --bd / --bob = float timing.
+                     Classes: req__chip--hot (red, shakes), req__chip--ghost (dashed), req__chip--lg (big), req__chip--sm (small). -->
+                <span class="req__chip req__chip--lg" data-r="-9" style="--x:90;--y:102;--bd:-.6s;--bob:4.4s"><span class="req__chip-in">make it pop</span></span>
+                <span class="req__chip req__chip--hot req__chip--lg" data-r="8" style="--x:326;--y:94;--bd:-2.1s;--bob:3.8s"><span class="req__chip-in">ASAP!!</span></span>
+                <span class="req__chip" data-r="3" style="--x:206;--y:136;--bd:-1.3s;--bob:5s"><span class="req__chip-in">fast login pls</span></span>
+                <span class="req__chip req__chip--hot req__chip--sm" data-r="-11" style="--x:56;--y:150;--bd:-.9s;--bob:4.2s"><span class="req__chip-in">by Friday</span></span>
+                <span class="req__chip req__chip--ghost req__chip--sm" data-r="6" style="--x:334;--y:146;--bd:-1.7s;--bob:4.8s"><span class="req__chip-in">simple but powerful</span></span>
+                <span class="req__chip" data-r="-5" style="--x:118;--y:190;--bd:-3.2s;--bob:4.6s"><span class="req__chip-in">works on mobile too</span></span>
+                <span class="req__chip req__chip--sm" data-r="12" style="--x:250;--y:188;--bd:-.4s;--bob:3.6s"><span class="req__chip-in">???</span></span>
+                <span class="req__chip req__chip--ghost" data-r="9" style="--x:342;--y:200;--bd:-.2s;--bob:4.1s"><span class="req__chip-in">dark mode?</span></span>
+                <span class="req__chip" data-r="-3" style="--x:226;--y:244;--bd:-2.7s;--bob:5.2s"><span class="req__chip-in">like Amazon, but cheaper</span></span>
+                <span class="req__chip req__chip--lg" data-r="4" style="--x:196;--y:294;--bd:-1.5s;--bob:4.9s"><span class="req__chip-in">cheap + fast + perfect</span></span>
+                <span class="req__chip" data-r="-8" style="--x:336;--y:318;--bd:-3.6s;--bob:4.7s"><span class="req__chip-in">export to Excel</span></span>
+                <span class="req__chip" data-r="7" style="--x:72;--y:332;--bd:-1.8s;--bob:3.9s"><span class="req__chip-in">admin panel</span></span>
+                <span class="req__chip req__chip--ghost" data-r="5" style="--x:196;--y:352;--bd:-.9s;--bob:4.3s"><span class="req__chip-in">real-time chat</span></span>
+                <span class="req__chip" data-r="-4" style="--x:304;--y:384;--bd:-2.4s;--bob:5.1s"><span class="req__chip-in">secure payments</span></span>
+                <span class="req__chip req__chip--hot" data-r="-8" style="--x:112;--y:402;--bd:-1.1s;--bob:4s"><span class="req__chip-in">need it yesterday</span></span>
+                <span class="req__chip req__chip--sm" data-r="6" style="--x:366;--y:438;--bd:-3s;--bob:4.5s"><span class="req__chip-in">SEO</span></span>
+                <span class="req__chip" data-r="-3" style="--x:226;--y:440;--bd:-1.6s;--bob:3.7s"><span class="req__chip-in">user roles</span></span>
+
+                <!-- glowing core that swallows the pile, then explodes into the app -->
+                <span class="req__core" data-req-core><i class="ph-bold ph-gear-six"></i></span>
+                <span class="req__wave" data-req-wave></span>
+
+                <!-- The result: one finished app -->
+                <div class="req__app" data-req-app>
+                  <div class="req__win">
+                    <span class="req__win-dots"><i></i><i></i><i></i></span>
+                    <span class="req__url"><i class="req__live-dot"></i>yourproject.app</span>
+                  </div>
+                  <div class="req__body">
+                    <div class="req__side">
+                      <span class="req__logo"></span>
+                      <span class="req__nav is-on"><i class="ph-bold ph-house"></i></span>
+                      <span class="req__nav"><i class="ph-bold ph-users"></i></span>
+                      <span class="req__nav"><i class="ph-bold ph-shopping-cart"></i></span>
+                      <span class="req__nav"><i class="ph-bold ph-chat-circle"></i></span>
+                    </div>
+                    <div class="req__main">
+                      <div class="req__head"><b>Dashboard</b><span class="req__new">+ New</span></div>
+                      <div class="req__stats">
+                        <div class="req__stat"><span>Users</span><b>1.2k</b></div>
+                        <div class="req__stat"><span>Orders</span><b>348</b></div>
+                        <div class="req__stat"><span>Uptime</span><b>99.9%</b></div>
+                      </div>
+                      <div class="req__chart">
+                        <i style="--h:.38"></i><i style="--h:.55"></i><i style="--h:.46"></i><i style="--h:.72"></i><i style="--h:.6"></i><i style="--h:.88"></i><i style="--h:.7"></i><i style="--h:1"></i>
+                      </div>
+                      <div class="req__stack">
+                        <span class="req__tile"><img src="icons/laravel.svg" alt="" width="64" height="64" loading="lazy" decoding="async"></span>
+                        <span class="req__tile"><img src="icons/javascript.svg" alt="" width="64" height="64" loading="lazy" decoding="async"></span>
+                        <span class="req__tile"><img src="icons/php.svg" alt="" width="64" height="64" loading="lazy" decoding="async"></span>
+                        <span class="req__tile"><img src="icons/mysql.svg" alt="" width="64" height="64" loading="lazy" decoding="async"></span>
+                        <span class="req__tile"><img src="icons/git.svg" alt="" width="64" height="64" loading="lazy" decoding="async"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="req__shine" data-req-shine></span>
+                </div>
+
+                <span class="req__ring" data-req-ring></span>
+
+                <!-- little "feature ready" notifications while it builds -->
+                <div class="req__toast-wrap"><span class="req__toast" data-req-toast><i class="ph-bold ph-check-circle"></i><span data-req-toast-text>Login &amp; roles ready</span></span></div>
+
+                <div class="req__status" data-req-status>
+                  <span class="req__track"><span class="req__fill" data-req-fill></span></span>
+                  <span class="req__pct" data-req-pct>100%</span>
+                  <span class="req__badge">
+                    <span class="req__badge-b">Building</span>
+                    <span class="req__badge-l"><i class="ph-bold ph-check"></i> Live</span>
+                  </span>
+                </div>
+
+              </div>
+            </div>
+          </figure>
+        </div>
+
+        <div class="about__content">
+          <h2 class="about__title" id="about-title">I turn messy requirements into software people enjoy using.</h2>
+
+          <p>Hi, I'm Abdul Hadi, a full-stack developer focused on building practical web applications with Laravel, JavaScript, and SQL. I enjoy working on backend logic, database design, and interactive features that make applications reliable and easy to use.</p>
+          <p>Through personal projects like e-commerce platforms, real-time chat applications, and library management systems, I've been developing my skills in problem-solving, application architecture, and building complete web experiences. I'm always learning, experimenting with new technologies, and looking for opportunities to turn ideas into useful applications.</p>
+
+          <ul class="about__focus">
+            <li>
+              <i class="ph-bold ph-database"></i>
+              <div><h3>Backend</h3><p>Laravel, PHP, MySQL and SQL Server.</p></div>
+            </li>
+            <li>
+              <i class="ph-bold ph-browsers"></i>
+              <div><h3>Frontend</h3><p>JavaScript, jQuery and responsive interfaces.</p></div>
+            </li>
+            <li>
+              <i class="ph-bold ph-broadcast"></i>
+              <div><h3>Realtime</h3><p>Laravel Reverb, Laravel Echo and WebSockets for live features.</p></div>
+            </li>
+          </ul>
+
+          <dl class="about__stats">
+            <div><dt>Projects built</dt><dd><span data-count="4">4</span></dd></div>
+            <div><dt>Full-stack Laravel apps</dt><dd><span data-count="3">3</span></dd></div>
+            <div><dt>Technologies used</dt><dd><span data-count="10">10</span>+</dd></div>
+          </dl>
+
+          <div class="about__actions">
+            <a class="btn btn--primary" href="#contact" data-magnetic>
+              <span class="btn__label">Start a project</span>
+              <span class="btn__icon"><i class="ph-bold ph-arrow-up-right"></i></span>
+            </a>
+            <a class="btn btn--ghost" href="./cv/ABDUL_HADI_CV.pdf" download data-magnetic target="_blank">
+              <span class="btn__label">Download CV</span>
+              <span class="btn__icon"><i class="ph-bold ph-download-simple"></i></span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====================================================== -->
+    <!-- CONTACT CTA                                            -->
+    <!-- ====================================================== -->
+    <section class="contact section section--dark" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact__panel">
+          <span class="contact__glow" aria-hidden="true"></span>
+
+          <div class="contact__main">
+            <h2 class="contact__title" id="contact-title">
+              <span class="line"><span class="line__inner">Have a project in mind?</span></span>
+              <span class="line"><span class="line__inner">Let's build it.</span></span>
+            </h2>
+
+            <p class="contact__lead">I'm open to freelance work and full-time roles. Tell me what you're building and I'll get back to you as soon as I can.</p>
+
+            <div class="contact__actions">
+              <a class="btn btn--light btn--lg" href="mailto:namehadi59@gmail.com" data-magnetic>
+                <span class="btn__label">Start a project</span>
+                <span class="btn__icon"><i class="ph-bold ph-arrow-up-right"></i></span>
+              </a>
+              <button class="btn btn--outline btn--lg" type="button" data-copy="namehadi59@gmail.com">
+                <span class="btn__label" data-copy-label>Copy email</span>
+                <span class="btn__icon"><i class="ph-bold ph-copy"></i></span>
+              </button>
+            </div>
+
+            <ul class="contact__channels">
+              <li><a href="mailto:namehadi59@gmail.com" target="_blank"><i class="ph ph-envelope-simple"></i> namehadi59@gmail.com</a></li>
+              <li><a href="https://wa.me/923111311054" target="_blank"><i class="ph ph-whatsapp-logo"></i> WhatsApp</a></li>
+              <li><a href="https://www.linkedin.com/in/yourusername" target="_blank"><i class="ph ph-linkedin-logo"></i> LinkedIn</a></li>
+            </ul>
+          </div>
+
+          <!-- Code editor: the full code below is the fallback (no JS / reduced motion). script.js clears it and types it out. Keep it in sync with LINES in initEditor(). -->
+          <figure class="code contact__editor" role="img" aria-label="A code editor typing out a short Laravel route that handles a new project request.">
+            <div class="code__bar" aria-hidden="true">
+              <span class="code__dots"><span></span><span></span><span></span></span>
+              <span class="code__file"><i class="devicon-php-plain"></i> routes/web.php</span>
+            </div>
+
+            <div class="code__body" data-editor aria-hidden="true">
+              <span class="code__line"><span class="t-com">// Have a project in mind?</span></span>
+              <span class="code__line"><span class="t-c">Route</span><span class="t-p">::</span><span class="t-f">post</span><span class="t-p">(</span><span class="t-s">'/start'</span><span class="t-p">, </span><span class="t-k">function</span><span class="t-p"> () {</span></span>
+              <span class="code__line">    <span class="t-v">$idea</span> = <span class="t-f">request</span><span class="t-p">()-&gt;</span><span class="t-f">validate</span><span class="t-p">([</span></span>
+              <span class="code__line">        <span class="t-s">'name'</span>  =&gt; <span class="t-s">'required'</span><span class="t-p">,</span></span>
+              <span class="code__line">        <span class="t-s">'email'</span> =&gt; <span class="t-s">'required|email'</span><span class="t-p">,</span></span>
+              <span class="code__line">        <span class="t-s">'idea'</span>  =&gt; <span class="t-s">'required'</span><span class="t-p">,</span></span>
+              <span class="code__line">    <span class="t-p">]);</span></span>
+              <span class="code__line"></span>
+              <span class="code__line">    <span class="t-c">Project</span><span class="t-p">::</span><span class="t-f">create</span><span class="t-p">(</span><span class="t-v">$idea</span><span class="t-p">);</span></span>
+              <span class="code__line"></span>
+              <span class="code__line">    <span class="t-k">return</span> <span class="t-s">"Let's build it."</span><span class="t-p">;</span></span>
+              <span class="code__line"><span class="t-p">});</span></span>
+            </div>
+
+            <div class="code__status" aria-hidden="true">
+              <span class="code__live">Open to work</span>
+              <span>PHP 8 &middot; UTF-8</span>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====================================================== -->
+  <!-- FOOTER                                                 -->
+  <!-- ====================================================== -->
+  <footer class="footer section--dark">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a class="logo" href="#home" aria-label="Abdul Hadi, back to top">
+                <span class="logo__text">Abdul Hadi</span>
+          </a>
+          <p>Full-stack Laravel and JavaScript developer. I build fast, secure web apps that are easy to find on Google.</p>
+        </div>
+
+        <nav class="footer__col" aria-label="Footer">
+          <h2 class="footer__heading">Pages</h2>
+          <ul>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#cases">Case studies</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__col">
+          <h2 class="footer__heading">Find me on</h2>
+          <ul class="socials socials--list">
+            <li><a href="https://github.com/yourusername"><i class="ph ph-github-logo"></i> GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/yourusername"><i class="ph ph-linkedin-logo"></i> LinkedIn</a></li>
+            <li><a href="https://wa.me/923111311054"><i class="ph ph-whatsapp-logo"></i> WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__wordmark" aria-hidden="true">ABDUL HADI</div>
+
+      <div class="footer__bottom">
+        <p>&copy; <span data-year>2026</span> Abdul Hadi. All rights reserved.</p>
+        <a class="footer__top-link" href="#home">
+          <span>Back to top</span>
+          <i class="ph-bold ph-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== Libraries ========== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+
+  <!-- ========== Your script (last file) ========== -->
+  <script src="script.js" defer></script>
+</body>
+</html> 
